@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    font-family:Hanalei-Regular ;
+}
+@font-face{
+    src: url(Fuente/Hanalei-Regular.ttf);
+    font-family:Hanalei-Regular ;
+}
+
+caption{
+    color: blue;
+    background-color: rgb(218, 189, 60);
+    text-align: center;
+    caption-side: top;
+}
+
+table {
+    width: 670px;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide;
+  }
+
+  hr.caja {
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    border-color: black;
+  }
+  td{
+      text-align: center;
+  }
+
+
+  caption.seg{
+    color: blue;
+    background-color:  rgb(218, 189, 60);
+    text-align:center;
+    caption-side: bottom;
+}
+
+table.table2 {
+    border: red 5px dotted;
+    border-collapse: collapse;
+}
+
+hr{
+    width: 50%;
+}
+
+p.caja{
+    width: 50%;
+    height: 30px;
+    background-color:  rgb(218, 207, 60);
+    border: solid 5px red;
+    color:blue;
+    text-align: center;
+   margin-left: 375px;
+}
